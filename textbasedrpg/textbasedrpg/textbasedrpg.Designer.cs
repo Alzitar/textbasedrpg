@@ -1,6 +1,6 @@
 ﻿namespace textbasedrpg
 {
-    partial class Form1
+    partial class Textbasedrpg
     {
         /// <summary>
         /// Required designer variable.
@@ -79,42 +79,38 @@
             this.lblHitPoints.AutoSize = true;
             this.lblHitPoints.Location = new System.Drawing.Point(110, 25);
             this.lblHitPoints.Name = "lblHitPoints";
-            this.lblHitPoints.Size = new System.Drawing.Size(35, 13);
+            this.lblHitPoints.Size = new System.Drawing.Size(0, 13);
             this.lblHitPoints.TabIndex = 4;
-            this.lblHitPoints.Text = "label4";
             // 
             // lblGold
             // 
             this.lblGold.AutoSize = true;
             this.lblGold.Location = new System.Drawing.Point(110, 46);
             this.lblGold.Name = "lblGold";
-            this.lblGold.Size = new System.Drawing.Size(35, 13);
+            this.lblGold.Size = new System.Drawing.Size(0, 13);
             this.lblGold.TabIndex = 5;
-            this.lblGold.Text = "label5";
             // 
             // lblExperience
             // 
             this.lblExperience.AutoSize = true;
             this.lblExperience.Location = new System.Drawing.Point(110, 67);
             this.lblExperience.Name = "lblExperience";
-            this.lblExperience.Size = new System.Drawing.Size(35, 13);
+            this.lblExperience.Size = new System.Drawing.Size(0, 13);
             this.lblExperience.TabIndex = 6;
-            this.lblExperience.Text = "label6";
             // 
             // lblLevel
             // 
             this.lblLevel.AutoSize = true;
             this.lblLevel.Location = new System.Drawing.Point(110, 88);
             this.lblLevel.Name = "lblLevel";
-            this.lblLevel.Size = new System.Drawing.Size(35, 13);
+            this.lblLevel.Size = new System.Drawing.Size(0, 13);
             this.lblLevel.TabIndex = 7;
-            this.lblLevel.Text = "label7";
             // 
-            // Form1
+            // Textbasedrpg
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 461);
             this.Controls.Add(this.lblLevel);
             this.Controls.Add(this.lblExperience);
             this.Controls.Add(this.lblGold);
@@ -123,7 +119,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblTimmy);
-            this.Name = "Form1";
+            this.Name = "Textbasedrpg";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
