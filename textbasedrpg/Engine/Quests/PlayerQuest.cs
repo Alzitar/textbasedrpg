@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Engine.Quests
+namespace Engine
 {
-    class PlayerQuest
+    public class PlayerQuest
     {
         public Quest Details { get; set; }
         public bool IsCompleted { get; set; }

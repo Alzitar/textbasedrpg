@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Engine
 {
-    class LootItem
+    public class LootItem
     {
         public Item Details { get; set; }
         public int DropPercentage { get; set; }

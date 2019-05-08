@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Engine.Quests
+namespace Engine
 {
-    class QuestCompletionItem
+    public class QuestCompletionItem
     {
         public Item Details { get; set; }
         public int Quantity { get; set; }
