@@ -21,15 +21,9 @@ namespace textbasedrpg
             this.StartPosition = FormStartPosition.Manual;
             this.Location = new Point(500, 300);
 
+            playerTim = new Player(10, 10, 20, 0, 1);
 
-            playerTim = new Player
-            {
-                CurrentHitpoints = 10,
-                MaximumHitpoints = 10,
-                Gold = 20,
-                ExperiencePoints = 0,
-                Level = 1
-            };
+            Location location = new Location(1, "Home", "This is your house");
 
             lblHitPoints.Text = playerTim.CurrentHitpoints.ToString();
             lblGold.Text = playerTim.Gold.ToString();
