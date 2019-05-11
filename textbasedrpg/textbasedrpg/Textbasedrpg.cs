@@ -19,7 +19,7 @@ namespace textbasedrpg
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.Manual;
-            this.Location = new Point(500, 300);
+            this.Location = new Point(100, 100);
 
             playerTim = new Player(10, 10, 20, 0, 1);
 
