@@ -16,7 +16,7 @@ namespace textbasedrpg
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Textbasedrpg());
+            Application.Run(new Form1());
         }
     }
 }

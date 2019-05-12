@@ -11,11 +11,11 @@ using System.Windows.Forms;
 
 namespace textbasedrpg
 {
-    public partial class Textbasedrpg : Form
+    public partial class Form1 : Form
     {
         private Player playerTim;
 
-        public Textbasedrpg()
+        public Form1()
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.Manual;
