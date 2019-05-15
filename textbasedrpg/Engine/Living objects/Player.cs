@@ -6,7 +6,7 @@ namespace Engine
 {
     public class Player : LivingCreature
     {
-        public Player(int currentHitpoints, int maximumHitpoints, int gold, int experiencePoints, int level) : base(currentHitpoints, maximumHitpoints)
+        public Player(int currentHitPoints, int maximumHitPoints, int gold, int experiencePoints, int level) : base(currentHitPoints, maximumHitPoints)
         {
             Gold = gold;
             ExperiencePoints = experiencePoints;

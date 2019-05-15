@@ -25,7 +25,7 @@ namespace textbasedrpg
 
             Location location = new Location(1, "Home", "This is your house");
 
-            lblHitPoints.Text = playerTim.CurrentHitpoints.ToString();
+            lblHitPoints.Text = playerTim.CurrentHitPoints.ToString();
             lblGold.Text = playerTim.Gold.ToString();
             lblExperience.Text = playerTim.ExperiencePoints.ToString();
             lblLevel.Text = playerTim.Level.ToString();
